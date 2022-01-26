@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+
+body {
+    background: #eeeeee;
+    font-family: "Roboto", sans-serif;
+    font-size: 0.9rem;
+}
+
+.card {
+    width: 50rem;
+    border: none;
+    border-radius: 15px;
+}
+
+.adiv {
+    background: #04cb28;
+    border-radius: 15px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    height: 46px;
+}
+
+.chat {
+    border: none;
+    background: #e2ffe8;
+    border-radius: 20px;
+}
+
+.bg-white {
+    border: 1px solid #e7e7e9;
+    border-radius: 20px;
+}
+
+.myvideo img {
+    border-radius: 20px;
+}
+
+.dot {
+    font-weight: bold;
+}
+
+.form-control {
+    border-radius: 12px;
+    border: 1px solid #f0f0f0;
+}
+
+.form-control:focus {
+    box-shadow: none;
+}
+
+.form-control::placeholder {
+    color: #c4c4c4;
+}
