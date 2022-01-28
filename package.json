@@ -1,15 +1,27 @@
 {
-  "name": "observer-pattern",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.17.2"
-  }
+    "name": "observer-pattern",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "chalk": "^5.0.0",
+        "colors": "^1.4.0",
+        "express": "^4.17.2",
+        "pretty-error": "^4.0.0",
+        "socket.io": "^4.4.1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/nguyentruongkhang22/Observer-Pattern.git"
+    },
+    "bugs": {
+        "url": "https://github.com/nguyentruongkhang22/Observer-Pattern/issues"
+    },
+    "homepage": "https://github.com/nguyentruongkhang22/Observer-Pattern#readme",
+    "description": ""
 }
