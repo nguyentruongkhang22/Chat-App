@@ -5,15 +5,17 @@ body {
     font-family: "Roboto", sans-serif;
     font-size: 0.9rem;
 }
-
+.alas {
+    word-break: break-all;
+}
 .card {
-    width: 25rem;
+    width: 30rem;
     border: none;
     border-radius: 15px;
 }
 
 .adiv {
-    background: #04cb28;
+    background: #f0c3f0;
     border-radius: 15px;
     border-bottom-right-radius: 0;
     border-bottom-left-radius: 0;
@@ -22,16 +24,12 @@ body {
 
 .chat {
     border: none;
-    background: #e2ffe8;
+    background: #f8f8f8;
     border-radius: 20px;
 }
 
 .bg-white {
     border: 1px solid #e7e7e9;
-    border-radius: 20px;
-}
-
-.myvideo img {
     border-radius: 20px;
 }
 
@@ -49,10 +47,11 @@ body {
 }
 
 .form-control::placeholder {
-    color: #c4c4c4;
+    color: #c495c4;
 }
 
 #chat-box {
     height: 28rem;
+    word-wrap: break-word;
     overflow: hidden scroll;
 }
